@@ -11,26 +11,38 @@ const Comparation = () => {
             <img src="../public/vsX.png" alt="" className='max-w-100%' />
         </div>
         <div className="flex sm:flex-col w-full justify-center align-center py-6 sm:text-2xl text-lg text-center text-gray-600 sm:font-semibold font-medium gap-10">
-            <ul className='sm:flex-row flex-col flex h-full justify-center sm:gap-28 text-wrap'>
+            <ul className='sm:flex-row flex-col flex h-full justify-center sm:gap-28 text-wrap max-w-[900px] self-center'>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p> Não atrapalha seu sorriso</p></li>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p> Pode comer o que quiser</p></li>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p> Tratamento mais rápido</p></li>
             </ul>
-            <ul className='sm:flex-row flex-col flex h-full justify-center sm:gap-28 text-wrap'>
+            <ul className='sm:flex-row flex-col flex h-full justify-center sm:gap-28 text-wrap max-w-[900px] self-center'>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p>Menos idas ao dentista</p></li>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p>Não acumula bactéria</p></li>
                 <li className='max-w-44'>
-                    <Icone/>
+                    <div>
+                        <Icone/>
+                    </div>
                     <p>Gengiva não sangra</p></li>
             </ul>
         </div>

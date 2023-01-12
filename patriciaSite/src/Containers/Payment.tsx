@@ -1,4 +1,5 @@
 import Button from '../Components/Button'
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 
 const Payment = () => {
   return (
@@ -10,10 +11,10 @@ const Payment = () => {
                 </h2>
                 
                 <div className='flex justify-center'>
-                    <ul className='flex flex-col gap-4 text-gray-700 text-lg font-medium'>
-                        <li><span className='text-xs pr-4'><ion-icon name="ellipse"></ion-icon></span>Fazemos atendimentos com descontos especiais em parcerias com bancos e convênios</li>
-                        <li><span className='text-xs pr-4'><ion-icon name="ellipse"></ion-icon></span>Disponibilizamos diversas formas de pagamento, inclusive boleto bancário e planos próprios</li>
-                        <li><span className='text-xs pr-4'><ion-icon name="ellipse"></ion-icon></span>O método Invisalign exige muito mais tecnologia, tempo de consulta, e especialidade do que os planos de saúde podem oferecer</li>
+                    <ul className='flex flex-col gap-5 text-gray-700 text-lg font-medium'>
+                        <li><MonetizationOnIcon className='pr-[6px] mr-4'/>Fazemos atendimentos com descontos especiais em parcerias com bancos e convênios</li>
+                        <li><MonetizationOnIcon className='pr-[6px] mr-4'/>Disponibilizamos diversas formas de pagamento, inclusive boleto bancário e planos próprios</li>
+                        <li><MonetizationOnIcon className='pr-[6px] mr-4'/>O método Invisalign exige muito mais tecnologia, tempo de consulta, e especialidade do que os planos de saúde podem oferecer</li>
                     </ul>
                 </div>
                 <div className='flex text-white justify-center py-10'>

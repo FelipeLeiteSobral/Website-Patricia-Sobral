@@ -1,9 +1,9 @@
-import React from 'react'
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 const Icone = () => {
   return (
     <span className='sm:text-[3.5rem] text-5xl text-yellow-400 text-bold'>
-        <ion-icon name="checkmark-circle"></ion-icon>
+        <CheckCircleOutlineIcon fontSize='inherit' className='text-yellow-400'/>
     </span >
   )
 }

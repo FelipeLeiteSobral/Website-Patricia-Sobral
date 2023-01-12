@@ -1,5 +1,6 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import { Fragment, ReactHTML } from 'react'
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 export const card = [
   {
@@ -37,7 +38,7 @@ function MyDisclosure({title, text}:MyDisclosureProps) {
       <Disclosure.Button className="bg-gray-700 w-full max-w-[1000px] flex outline-none text-base sm:text-lg bg-gray-700 p-[0.75rem] justify-start items-center gap-2">    
       <span className={`${
                     open ? '-rotate-90 transform' : ''
-                  }text-white text-sm`}><ion-icon name="caret-forward-outline"></ion-icon></span><p>{title}</p>   
+                  }text-white text-sm`}><ArrowRightIcon/></span><p>{title}</p>   
       </Disclosure.Button>
       <Transition
         enter="transition duration-350 origin-top ease-out"
