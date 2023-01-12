@@ -6,7 +6,7 @@ const Casos = () => {
         <div className="w-full bg-gray-300 text-white flex justify-center">
             <div className='xl:w-[65%] lg:w-[80%] md:w-[85%] sm:w-[90%] w-full md:flex-row flex-col items-center flex md:gap-10'>
                 <div className='flex flex-col p-10'>
-                    <h2 className='text-4xl font-semibold text-gray-600 pb-6'>
+                    <h2 className='text-3xl sm:text-4xl font-semibold text-gray-600 pb-6'>
                         Invisalign transparente resolve meu caso?
                     </h2>
                     <p className='text-gray-900 text-lg font-medium text-justify md:pb-10'>

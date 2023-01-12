@@ -6,7 +6,7 @@ const Payment = () => {
     <div>
         <div className="w-full bg-gray-300 flex justify-center">
             <div className='xl:w-[65%] lg:w-[80%] md:w-[85%] sm:w-[90%] w-full flex flex-col px-10'>
-                <h2 className='text-4xl font-semibold text-gray-600 py-10 text-center '>
+                <h2 className='text-3xl sm:text-4xl font-semibold text-gray-600 py-10 sm:text-center '>
                         Porque trabalhamos com plano próprio de pagamento?
                 </h2>
                 

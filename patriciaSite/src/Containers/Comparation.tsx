@@ -5,7 +5,7 @@ const Comparation = () => {
   return (
     <div>
         <div className="flex justify-center py-8 sm:pt-20 sm:pb-12">
-            <h2 className='sm:text-5xl text-4xl font-semibold text-gray-600'>Invisalign <span className='text-yellow-400 font-bold'> VS </span> Fixo</h2>
+            <h2 className='sm:text-5xl text-3xl font-semibold text-gray-600'>Invisalign <span className='text-yellow-400 font-bold'> VS </span> Fixo</h2>
         </div>
         <div className="flex justify-center sm:py-6">
             <img src="https://i.ibb.co/t8fPRzT/vsX.png" alt="" className='max-w-100%' />
