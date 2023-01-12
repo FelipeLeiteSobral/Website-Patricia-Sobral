@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'invisalign': "url('/public/invisalign(1).jpg')",
-        'tablet': "url('./public/invisalign.jpg')",
+        'invisalign': "url('https://ibb.co/y4vCvfw')",
+        'tablet': "url('https://ibb.co/kDY9P9t')",
       }
     },
     screens: {

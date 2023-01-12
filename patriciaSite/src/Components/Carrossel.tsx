@@ -13,14 +13,14 @@ export default () => {
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img src="./public/Diastema.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Dentes-Apinhados.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Criancas-com-dentes-de-leite-e-permanentes.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Alinhamento-geral-dos-dentes.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Mordida-Aberta.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/mordida-cruzada.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Prognatismo.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="./public/Sobremordida.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/1bwPQcv" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/kBGMHhd" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/HFx7rTN" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/z65jJkc" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/B2kP8Hw" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/YQzfw72" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/wWsVDCg" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://ibb.co/Rhzv0NY" alt="" className='object-cover w-full h-full'/></SwiperSlide>
     </Swiper>
   );
 };

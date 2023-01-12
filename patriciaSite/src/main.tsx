@@ -22,3 +22,17 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Rodape/>
   </React.StrictMode>,
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
