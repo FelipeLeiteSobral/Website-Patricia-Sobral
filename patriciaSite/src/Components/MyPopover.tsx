@@ -35,7 +35,7 @@ function MyDisclosure({title, text}:MyDisclosureProps) {
     <Disclosure>
       {({ open }) => (
             <>
-      <Disclosure.Button className="bg-gray-700 w-full max-w-[1000px] flex outline-none text-base sm:text-lg bg-gray-700 p-[0.75rem] justify-start items-center gap-2">    
+      <Disclosure.Button className="bg-gray-700 w-full max-w-[1000px] flex outline-none text-base sm:text-lg bg-gray-700 p-[0.75rem] justify-start text-left items-center gap-2">    
       <span className={`${
                     open ? '-rotate-90 transform' : ''
                   }text-white text-sm`}><ArrowRightIcon/></span><p>{title}</p>   
