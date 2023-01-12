@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='from-gray-600/[0.97] to-gray-500/[0.93] bg-gradient-to-b flex justify-center h-full'>
             <footer className='xl:w-[65%] md:w-[95%] sm:w-[90%] md:h-[82vh] text-white md:flex justify-center'>
                 <div className='hidden md:flex pt-16 self-end h-full'>
-                    <img src="https://ibb.co/WN9wdnm" alt="" className='object-contain self-end max-h-full' />
+                    <img src="https://i.ibb.co/fVR5KMj/patricia2.png" alt="" className='object-contain self-end max-h-full' />
                 </div>
                 <div className='md:max-w-[50%] p-10 text-justify'>
                     <p className='text-yellow-100 text-2xl pb-3'>Conheça a</p>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </form>
                 </div>
                 <div className='flex md:hidden pt-16 justify-center'>
-                    <img src="https://ibb.co/WN9wdnm" alt="" className='object-cover h-full w-[55%]' />
+                    <img src="https://i.ibb.co/fVR5KMj/patricia2.png" alt="" className='object-cover h-full w-[55%]' />
                 </div>
             </footer>
         </div>

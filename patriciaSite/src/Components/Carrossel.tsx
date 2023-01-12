@@ -13,14 +13,14 @@ export default () => {
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img src="https://ibb.co/1bwPQcv" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/kBGMHhd" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/HFx7rTN" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/z65jJkc" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/B2kP8Hw" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/YQzfw72" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/wWsVDCg" alt="" className='object-cover w-full h-full'/></SwiperSlide>
-      <SwiperSlide><img src="https://ibb.co/Rhzv0NY" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/BwSQ3kz/Alinhamento-geral-dos-dentes.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/NCF7VL4/Criancas-com-dentes-de-leite-e-permanentes.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/h7ZsKFX/Dentes-Apinhados.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/0sX8twN/Diastema.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/b5t3pj7/Mordida-Aberta.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/bmSNDg1/mordida-cruzada.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/Hzd6mY4/Prognatismo.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/q0kysC7/Sobremordida.png" alt="" className='object-cover w-full h-full'/></SwiperSlide>
     </Swiper>
   );
 };
